@@ -1,12 +1,12 @@
 from gpiozero import AngularServo
 from time import sleep
-servoPin = 14
+servoPin = 23
 
 servo = AngularServo(servoPin, min_angle = 0, max_angle = 180, min_pulse_width = 0.5/1000, max_pulse_width = 2.5/1000)
 
 def set_angle(angle):
     servo.angle = angle
-    sleep(1)
+    sleep(1) #tiempo para que el servo pueda llegar a la posicion 
 
 try:
     while True:

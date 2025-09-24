@@ -1,3 +1,4 @@
+# monitoreo.py
 import socket
 
 HOST = "0.0.0.0"   # escuchar en cualquier interfaz

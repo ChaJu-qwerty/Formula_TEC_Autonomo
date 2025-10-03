@@ -18,8 +18,8 @@ import RPi.GPIO as GPIO
 import time
 
 # --- Configuración de pines (BCM) ---
-AIN1 = 17   # Pin de dirección A1
-AIN2 = 27   # Pin de dirección A2
+AIN1 = 23   # Pin de dirección A1
+AIN2 = 24   # Pin de dirección A2
 PWMA = 18   # Pin PWM para velocidad (canal A) -> usar pin que soporte PWM por software
 STBY = 22   # Pin Standby del TB6612 (poner HIGH para habilitar)
 
